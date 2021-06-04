@@ -10,6 +10,7 @@ this is a part of senior project from phum lertritmahachai
 3) code for production เป็น source code สำหรับการใช้งานบน production จริงๆ
 
 ############# installation ##############
+
 ภายใน installation จะประกอบไปด้วย file ต่างๆดังนี้
 1) Miniconda3-latest-Linux-x86_64.sh	สำหรับการติดตั้ง conda environment ช่วยในการติดตั้ง library และ package ได้ง่ายขึ้น
 2) environment.yml			สำหรับการระบุว่าต้องติดตั้ง package อะไรบ้าง โดยมีการกำหนด version ของ library สำหรับใช้คู่กับ anaconda
@@ -20,7 +21,7 @@ this is a part of senior project from phum lertritmahachai
 1) apt-get update && apt-get -y upgrade
 2) ทำการย้าย file ไปยัง
 2) curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-3) sh Miniconda3-latest-Linux-x86_64.sh => yes => enter => yes => bash
+3) sh Miniconda3-latest-Linux-x86_64.sh => yes => enter => yes => bash (ให้ => แทนการ enter โดย enter ยอมรับเงื่อนไขจนเจอตัวเลือก yes or no)
 4) conda config --add channels defaults
 5) conda config --add channels bioconda
 6) conda config --add channels conda-forge
