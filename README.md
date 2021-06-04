@@ -28,4 +28,4 @@ this is a part of senior project from phum lertritmahachai
 7) conda install -y bwa
 8) conda env update -f environment.yml
 9) apt install -y openjdk-8-jre-headless 
-10 pip3 install cassandra-driver
+10) pip3 install cassandra-driver
