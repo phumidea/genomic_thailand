@@ -14,6 +14,8 @@ this is a part of senior project from phum lertritmahachai
 1) Miniconda3-latest-Linux-x86_64.sh	สำหรับการติดตั้ง conda environment ช่วยในการติดตั้ง library และ package ได้ง่ายขึ้น
 2) environment.yml			สำหรับการระบุว่าต้องติดตั้ง package อะไรบ้าง โดยมีการกำหนด version ของ library สำหรับใช้คู่กับ anaconda
 
+หมายเหตุ ผู้ใช้งานต้อง download miniconda เองเนื่องจาก file ีขนาดใหญ่เกิน 25 MB
+
 วิธีการติดตั้ง
 1) apt-get update && apt-get -y upgrade
 2) ทำการย้าย file ไปยัง
