@@ -21,7 +21,7 @@ this is a part of senior project from phum lertritmahachai
 1) apt-get update && apt-get -y upgrade
 2) ทำการย้าย file ไปยัง
 2) curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-3) sh Miniconda3-latest-Linux-x86_64.sh => yes => enter => yes => bash (ให้ => แทนการ enter โดย enter ยอมรับเงื่อนไขจนเจอตัวเลือก yes or no)
+3) sh Miniconda3-latest-Linux-x86_64.sh => yes => enter => yes => bash (ให้ => แทนการ enter โดย enter ยอมรับเงื่อนไขจนเจอตัวเลือก yes or no และเมื่อ install เสร็จ หาก install ไม่มี conda environment ขึ้นให้ พิมพ์ bash แล้ว enter)
 4) conda config --add channels defaults
 5) conda config --add channels bioconda
 6) conda config --add channels conda-forge
