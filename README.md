@@ -26,6 +26,6 @@ this is a part of senior project from phum lertritmahachai
 5) conda config --add channels bioconda
 6) conda config --add channels conda-forge
 7) conda install -y bwa
-8) conda env update -f environment.yml => ask environment from Phum
+8) conda env update -f environment.yml
 9) apt install -y openjdk-8-jre-headless 
 10 pip3 install cassandra-driver
